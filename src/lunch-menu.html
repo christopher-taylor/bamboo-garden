@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>  <meta charset="UTF-8">
+    <title>Handlebars Demo</title>
+    <!-- dependant files -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+</head>
+
+<!-- template -->
+<script id="template2" type="text/x-handlebars-template">
+    <div><h1>Menu</h1></div>
+        {{#Categories}}
+        <h3>{{name}}</h3>
+        <table>
+            {{#food}}
+            <tr>
+                {{#if isHeartHealthy}}
+                    <td><img src="/assets/img/heart.svg"></td>
+                {{/if}}
+                {{#if isVegan}}
+                    <td><img src="/assets/img/logo.svg"></td>
+                {{/if}}
+                {{#if isSpice}}
+                    <td><img src="/assets/img/asterisk.svg"></td>
+                {{/if}}
+                <td>{{number}}</td>
+                <td>{{name}}</td>
+                <td>{{price1}}</td>
+            </tr>
+        {{/food}}
+        </table>
+        {{/Categories}}
+</script>
+
+
+<body><div id="main"></div></body>
+
+<script>
+    var source = document.getElementById('template2').innerHTML;
+    var template = Handlebars.compile(source);
+    var data = $.getJSON("/assets/data/lunch.json", function(data){
+
+        var result = template({Categories: data});
+        document.write(result);
+    });
+</script>
+</html>
