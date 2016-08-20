@@ -1,3 +1,69 @@
+html {
+  font-size: 110%;
+  line-height: 111%; }
+
+h1, h2, h2 {
+  font-family: Merriweather, Times, serif; }
+
+h1 {
+  font-size: 165%; }
+
+h2 {
+  font-size: 121%; }
+
 body {
-    background: url("../assets/img/bamboo.jpg");
-}
+  background: url(/img/bamboo.jpg);
+  font-size: 110%;
+  line-height: 111%;
+  margin: 0;
+  width: 100%; }
+
+header {
+  padding: 3% 3% 0;
+  top: 0;
+  width: 100% !important; }
+
+nav > ul > li {
+  display: inline-block;
+  font-family: Raleway, Helvetica, sans-serif;
+  list-style: none;
+  text-align: center;
+  width: 24%; }
+
+.logos-wrapper {
+  display: inline-block;
+  font-family: Merriweather, Times, serif;
+  font-size: 77%;
+  text-align: left; }
+
+.wrapper {
+  background-color: rgba(3, 1, 1, 0.85);
+  color: #EEE;
+  margin: auto;
+  text-align: center;
+  width: 85%; }
+
+.menu-item {
+  font-family: Raleway, Helvetica, sans-serif;
+  vertical-align: middle; }
+
+.menu-item > td {
+  padding: 2px; }
+
+.menu-image {
+  height: 30px;
+  width: auto; }
+
+.footer-image {
+  height: 25px;
+  width: auto; }
+
+.menu-key {
+  font-family: Merriweather, Times, serif;
+  margin: auto;
+  text-align: left;
+  width: 40%; }
+
+.dev-footer {
+  font-size: 66%;
+  text-align: center; }

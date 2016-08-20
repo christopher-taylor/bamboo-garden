@@ -1,0 +1,89 @@
+$base-font-size: 110%;
+$base-line-height: 111%;
+$sans-font-stack: Raleway,Helvetica,sans-serif;
+$serrif-font-stack: Merriweather,Times,serif; 
+
+html {
+    font-size:$base-font-size;
+    line-height:$base-line-height
+}
+
+h1,h2,h2 {
+    font-family:$serrif-font-stack
+}
+
+h1 {
+    font-size:($base-font-size*1.5)
+}
+
+h2 {
+    font-size:($base-font-size*1.1)
+}
+
+body {
+    background:url(/img/bamboo.jpg);
+    font-size:$base-font-size;
+    line-height:$base-line-height;
+    margin:0;
+    width:100%
+}
+
+header {
+    padding:3% 3% 0;
+    top:0;
+    width:100%!important
+}
+
+nav>ul>li {
+    display:inline-block;
+    font-family:$sans-font-stack;
+    list-style:none;
+    text-align:center;
+    width:24%
+}
+
+.logos-wrapper {
+    display:inline-block;
+    font-family:$serrif-font-stack;
+    font-size:$base-font-size * .7;
+    text-align:left
+}
+
+.wrapper {
+    background-color:rgba(3,1,1,.85);
+    color:#EEE;
+    margin:auto;
+    text-align:center;
+    width:85%
+}
+
+.menu-item {
+    font-family:$sans-font-stack;
+    vertical-align:middle
+}
+
+.menu-item>td {
+    padding:2px
+}
+
+.menu-image {
+    height:30px;
+    width:auto
+}
+
+.footer-image {
+    height:25px;
+    width:auto
+}
+
+.menu-key {
+    font-family:$serrif-font-stack;
+    margin:auto;
+    text-align:left;
+    width:40%
+}
+
+.dev-footer {
+    font-size:$base-font-size * .6;
+    text-align:center
+}
