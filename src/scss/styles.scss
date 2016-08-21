@@ -1,11 +1,16 @@
+// Typography
 $base-font-size: 110%;
 $base-line-height: 111%;
 $sans-font-stack: Raleway,Helvetica,sans-serif;
-$serrif-font-stack: Merriweather,Times,serif; 
+$serrif-font-stack: Merriweather,Times,serif;
+
+// Element Dimensions
+$header-height: 75px;
 
 html {
     font-size:$base-font-size;
-    line-height:$base-line-height
+    line-height:$base-line-height;
+    font-family: $sans-font-stack;
 }
 
 h1,h2,h2 {
@@ -22,45 +27,94 @@ h2 {
 
 body {
     background:url(/img/bamboo.jpg);
-    font-size:$base-font-size;
-    line-height:$base-line-height;
     margin:0;
     width:100%
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// HEADER RELATED CSS
+///////////////////////////////////////////////////////////////////////////////
+
 header {
-    padding:3% 3% 0;
+    background-color: #030101;
+    color:#EEE;
+    height:$header-height;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    padding:1.5%;
+    left: 0;
     top:0;
-    width:100%!important
+    width: 100%;
 }
 
-nav>ul>li {
-    display:inline-block;
-    font-family:$sans-font-stack;
-    list-style:none;
-    text-align:center;
-    width:24%
+header>img{
+    height: $header-height;
+    width: auto;
 }
 
-.logos-wrapper {
-    display:inline-block;
-    font-family:$serrif-font-stack;
-    font-size:$base-font-size * .7;
-    text-align:left
+nav{
+    display: inline-block;
+    order: 2;
+    text-align: left;
+    
+    ul{
+        padding-left: 0;
+        margin: 0;
+
+        li:first-child{
+            padding-left: 0;
+        }
+        li {
+            line-height: $base-line-height;
+            display:inline-block;
+            list-style:none;
+            padding: 0 3%
+        }
+        li:hover{
+            color:white;
+            font-weight: bold;
+            // text-shadow: 1px 1px white;
+        }
+    }
 }
+
+#slogan{
+    font-family: $serrif-font-stack;
+    font-size: $base-font-size * 1.5
+}
+
+.header-content{
+    width: 100%;
+    padding: 0 2%;
+    text-align: left;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#spacer{
+    width: 100%;
+    margin: 1%;
+    height: $header-height;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Menu CSS
+///////////////////////////////////////////////////////////////////////////////
 
 .wrapper {
     background-color:rgba(3,1,1,.85);
     color:#EEE;
     margin:auto;
+    padding: 1.5%;
     text-align:center;
     width:85%
 }
 
 .menu-item {
-    font-family:$sans-font-stack;
     vertical-align:middle
 }
+
 
 .menu-item>td {
     padding:2px
@@ -71,19 +125,25 @@ nav>ul>li {
     width:auto
 }
 
+///////////////////////////////////////////////////////////////////////////////
+// Footer CSS
+///////////////////////////////////////////////////////////////////////////////
+
+footer {
+    font-family: $serrif-font-stack;
+
+    .menu-key {
+        margin: auto;
+        text-align:left;
+        width:35%
+    }
+    .dev-footer {
+        font-size:$base-font-size * .6;
+        text-align:center
+    }
+}
+
 .footer-image {
     height:25px;
     width:auto
-}
-
-.menu-key {
-    font-family:$serrif-font-stack;
-    margin:auto;
-    text-align:left;
-    width:40%
-}
-
-.dev-footer {
-    font-size:$base-font-size * .6;
-    text-align:center
 }

@@ -1,6 +1,7 @@
 html {
   font-size: 110%;
-  line-height: 111%; }
+  line-height: 111%;
+  font-family: Raleway, Helvetica, sans-serif; }
 
 h1, h2, h2 {
   font-family: Merriweather, Times, serif; }
@@ -13,38 +14,75 @@ h2 {
 
 body {
   background: url(/img/bamboo.jpg);
-  font-size: 110%;
-  line-height: 111%;
   margin: 0;
   width: 100%; }
 
 header {
-  padding: 3% 3% 0;
+  background-color: #030101;
+  color: #EEE;
+  height: 75px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  padding: 1.5%;
+  left: 0;
   top: 0;
-  width: 100% !important; }
+  width: 100%; }
 
-nav > ul > li {
-  display: inline-block;
-  font-family: Raleway, Helvetica, sans-serif;
-  list-style: none;
-  text-align: center;
-  width: 24%; }
+header > img {
+  height: 75px;
+  width: auto; }
 
-.logos-wrapper {
+nav {
   display: inline-block;
-  font-family: Merriweather, Times, serif;
-  font-size: 77%;
+  -ms-flex-order: 2;
+  order: 2;
   text-align: left; }
+  nav ul {
+    padding-left: 0;
+    margin: 0; }
+    nav ul li:first-child {
+      padding-left: 0; }
+    nav ul li {
+      line-height: 111%;
+      display: inline-block;
+      list-style: none;
+      padding: 0 3%; }
+    nav ul li:hover {
+      color: white;
+      font-weight: bold; }
+
+#slogan {
+  font-family: Merriweather, Times, serif;
+  font-size: 165%; }
+
+.header-content {
+  width: 100%;
+  padding: 0 2%;
+  text-align: left;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+#spacer {
+  width: 100%;
+  margin: 1%;
+  height: 75px; }
 
 .wrapper {
   background-color: rgba(3, 1, 1, 0.85);
   color: #EEE;
   margin: auto;
+  padding: 1.5%;
   text-align: center;
   width: 85%; }
 
 .menu-item {
-  font-family: Raleway, Helvetica, sans-serif;
   vertical-align: middle; }
 
 .menu-item > td {
@@ -54,16 +92,16 @@ nav > ul > li {
   height: 30px;
   width: auto; }
 
+footer {
+  font-family: Merriweather, Times, serif; }
+  footer .menu-key {
+    margin: auto;
+    text-align: left;
+    width: 35%; }
+  footer .dev-footer {
+    font-size: 66%;
+    text-align: center; }
+
 .footer-image {
   height: 25px;
   width: auto; }
-
-.menu-key {
-  font-family: Merriweather, Times, serif;
-  margin: auto;
-  text-align: left;
-  width: 40%; }
-
-.dev-footer {
-  font-size: 66%;
-  text-align: center; }

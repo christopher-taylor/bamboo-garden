@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Handlebars Demo</title>
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
@@ -38,17 +39,11 @@
 
 
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="logos-wrapper">
-                <!--<img src="img/logo.svg" id="header_logo" class="header_svg" alt="">-->
-                <img src="img/side1.svg" id="header_hanzi" class="header_svg" alt="">
-                <img src="img/title.svg" id="header_title" class="header_svg" alt="">
-                <img src="img/side2.svg" id="header_hanzi" class="header_svg" alt="">
-                <!--<img src="img/logo.svg" id="header_logo" class="header_svg" alt=""><br />-->
-            </div>
+    <header>
+        <img src="img/logo-white.svg" id="header_logo" class="header_svg" alt="">
+        <div class="header-content">
+            <span id="slogan">Health Is Our Recipe</span><br />
             <nav>
-                Health Is Our Recipe
                 <ul>
                     <li>About Us</li>|
                     <li>Lunch Menu</li>|
@@ -56,9 +51,12 @@
                     <li>Daily Menu</li>
                 </ul>
             </nav>
-            <hr style="width:85%;color:white;margin:20px auto;">
-        </header>
+        </div>
+    </header>
 
+    <div id="spacer"></div>
+
+    <div class="wrapper content-area">
         <main id="main"></main>
 
         <hr style="width:85%;color:white;margin:20px auto;">
