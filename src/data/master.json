@@ -1,0 +1,1310 @@
+[{
+    "categoryName": "Soups",
+    "hanzi": "素湯羹類",
+    "food": [{
+        "number": 10,
+        "hanzi": "素雞絲生翅",
+        "name": "Braised Chicken and Shark Fin Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 4.50
+            }, {
+                "label": "Large",
+                "price": 8.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 11,
+        "hanzi": "百花粟米羹",
+        "name": "Deluxe Kernel Corn Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 12,
+        "hanzi": "粟米露昏羮",
+        "name": "Asparagus and Kernel Corn Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 13,
+        "hanzi": "粟米豆腐羮",
+        "name": "Kernel Corn and Bean Curd Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 14,
+        "hanzi": "粟米素雞湯",
+        "name": "Kernel Corn and Chicken Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 15,
+        "hanzi": "紫菜豆腐羮",
+        "name": "Seaweed and Bean Curd Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 16,
+        "hanzi": "豆腐什菜湯",
+        "name": "Mixed Vegetable and Bean Curd Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 17,
+        "hanzi": "西湖牛肉羮",
+        "name": "Botanic Garden Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 3.95
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 18,
+        "hanzi": "素雞什菜湯",
+        "name": "Mixed Vegetables and Chicken Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 4.50
+            }, {
+                "label": "Large",
+                "price": 8.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 19,
+        "hanzi": "雲吞湯",
+        "name": "Deluxe Won Ton Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 4.00
+            }, {
+                "label": "Large",
+                "price": 7.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 20,
+        "hanzi": "酸辣湯",
+        "name": "Hot and Sour Soup",
+        "prices": [
+            {
+                "label": "Small",
+                "price": 4.50
+            }, {
+                "label": "Large",
+                "price": 8.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 21,
+        "hanzi": "是日例湯",
+        "name": "Creamy Corn Chowder",
+        "prices": [
+            {
+                "label": "Cup",
+                "price": 2.25
+            }, {
+                "label": "Small",
+                "price": 4.50
+            }, {
+                "label": "Large",
+                "price": 8.95
+            }
+        ],
+        "isHeartHealthy": true
+    }]
+}, {
+    "categoryName": "Specialties of the Royal Court",
+    "hanzi": "精選上素類",
+    "food": [{
+        "number": 22,
+        "hanzi": "紫竹林上素",
+        "name": "Botanic Feast",
+        "description": "Braised mixed vegetables with mushrooms and white fungus.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 23,
+        "hanzi": "鮮蔬什錦",
+        "name": "Bamboo Garden Deluxe",
+        "description": "Assorted vegetables sautéed in light sauce.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 24,
+        "hanzi": "雙珍唐芥蘭",
+        "name": "Fresh Green with Twin Delight",
+        "description": "Stir-fried Chinese broccoli with fresh braised shiitake and enoki mushrooms.",
+        "prices": [
+            {
+                "price": 13.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 25,
+        "hanzi": "隻珍鮮露荀",
+        "name": "Fresh Asparagus with Twin Delight",
+        "description": "Stir-fried asparagus with fresh braised shiitake and enoki mushrooms.",
+        "prices": [
+            {
+                "price": 13.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 26,
+        "hanzi": "鮮金菇鮮蔬",
+        "name": "Fresh Enoki Mushrooms with Baby Bok Choy",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 27,
+        "hanzi": "鮮金菇西蘭花",
+        "name": "Fresh Enoki Mushrooms with Broccoli",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 28,
+        "hanzi": "鮮金菇露筍",
+        "name": "Double Fresh",
+        "description": "Fresh asparagus stir-fried with fresh enoki mushrooms.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 29,
+        "hanzi": "清炒鮮蔬",
+        "name": "Sauteed Fresh Chinese Greens",
+        "description": "Bok choy, baby bok choy & Chinese Broccoli.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 30,
+        "hanzi": "清炒鮮蔬",
+        "name": "Golden Petals on Jade Platter",
+        "description": "Marinated, crispy-fried soy bean wrappers on stir-fried Chinese green vegetables.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 31,
+        "hanzi": "柳絮千絲",
+        "name": "Golden Petals on Vegetable Platter",
+        "description": "Marinated and crispy fried soybean wrappers on a bed of stir-fried shredded vegetables.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 32,
+        "hanzi": "法海蒲團",
+        "name": "Buddha’s Imperial Feast",
+        "description": "Stewed fresh shiitaki mushrooms braised with stuffed vegetable roll on a bed of bok choy.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 33,
+        "hanzi": "紅燒鮑魚菇",
+        "name": "Buddha’s Imperial White Pearl",
+        "description": "Braised fresh King oyster mushrooms in chef’s special sauce.",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 34,
+        "hanzi": "鮮冬菇鮮蔬",
+        "name": "Buddha’s Black Pearl on Jade Platter",
+        "description": "Braised fresh shiitake mushrooms on a bed of Chinese vegetable.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 35,
+        "hanzi": "炒鱔糊",
+        "name": "Sautéed Eel",
+        "description": "Fresh shiitake mushrooms ribbon sautéed with enoki mushrooms and shredded vegetables.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 36,
+        "hanzi": "美果菇丁",
+        "name": "Sauteed Assorted Mushrooms & Diced Vegetables with Cashew Nuts",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 37,
+        "hanzi": "葡汁焗四蔬",
+        "name": "Vegetables Treasure in Golden Pond",
+        "description": "Mixed vegetables baked in curry sauce.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 38,
+        "hanzi": "椰汁焗四蔬",
+        "name": "Vegetables Treasure in Pearly Pond",
+        "description": "Mixed vegetables baked in coconut sauce.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 39,
+        "hanzi": "雙珍豆角",
+        "name": "Fresh Green Beans with Twin Delight",
+        "description": "Sautéed green beans with fresh shiitake and enoki mushrooms.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 40,
+        "hanzi": "鮮冬菇豆角",
+        "name": "Sauteed Green Beans with Fresh Shiitake Mushrooms",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 41,
+        "hanzi": "鮮金菇豆角",
+        "name": "Sauteed Green Beans with Fresh Enoki Mushrooms",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }]
+}, {
+    "categoryName": "Buddha's Basket",
+    "hanzi": "鵲巢類",
+    "food": [{
+        "number": 42,
+        "hanzi": "夏果雙鮮",
+        "name": "Buddhas’s Basket with Precious Nuts",
+        "description": "Assorted mushrooms and asparagus sautedd with nixed nuts.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 43,
+        "hanzi": "四寶藏珍",
+        "name": "Hidden Treasure",
+        "description": "Chicken sautéed with assorted vegetables and mushrooms.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 44,
+        "hanzi": "百鵲歸巢",
+        "name": "Happy Family",
+        "description": "Stir-fried mushrooms, diced vegetables and chicken with assorted nuts in sweet and spicy sauce.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 45,
+        "hanzi": "芝麻雞球",
+        "name": "Sesame Chicken",
+        "description": "Prepared in sweet and sour sauce with broccoli.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true
+    }]
+}, {
+    "categoryName": "Vegetarian Poultry and Beef",
+    "hanzi": "素雞類",
+    "food": [{
+        "number": 46,
+        "hanzi": "素雞炒什錦",
+        "name": "Chicken  Sauteed with Mixed Vegetables",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 47,
+        "hanzi": "雪豆素雞柳",
+        "name": "Stir-Fried Chicken with Snow Peas",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 48,
+        "hanzi": "雪豆果仁雞柳",
+        "name": "Stir-Fried Chicken with Snow Peas, topped with Cashews & Almonds",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 49,
+        "hanzi": "素雞西蘭花",
+        "name": "Stir-Fried Chicken with Broccoli",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 50,
+        "hanzi": "雙珍素雞柳",
+        "name": "Stir-Fried Chicken and Broccoli with Fresh Enoki and Shiitake Mushrooms",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 51,
+        "hanzi": "七彩炒三絲",
+        "name": "Imperial Three Delight",
+        "description": "Sautéed enoki & julienned shiitake mushrooms, shredded vegetables with bean curd on a bed of crispy fried bean thread noodles.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 52,
+        "hanzi": "麻辣素雞球",
+        "name": "Hot and Spicy Chicken",
+        "description": "Stir-fried chicken and mixed vegetables in hot spicy sauce.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 53,
+        "hanzi": "麻辣鮮冬菇\n雞柳",
+        "name": "Ruby Princess",
+        "description": "Hot and spicy chicken sauteed with fresh asparagus and fresh shiitake mushrooms.",
+        "prices": [
+            {
+                "price": 13.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 54,
+        "hanzi": "素牛肉西蘭花",
+        "name": "Stir-Fried Beef with Broccoli",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 55,
+        "hanzi": "蒙古素牛肉",
+        "name": "Mongolian Beef",
+        "description": "Veggie beef stir fried in sweet and spicy sauce with shredded vegetables over a bed of crispy fried bean thread noodles.",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isSpicy": true
+    }, {
+        "number": 56,
+        "hanzi": "杏仁炸素雞球",
+        "name": "Almond Fried Chicken",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ]
+    }, {
+        "number": 57,
+        "hanzi": "腰果杏仁\n炒素雞丁",
+        "name": "Sauteed Almond & Cashew Nut Chicken",
+        "description": "Stir-fried chicken and diced vegetables with cashew nuts and almond.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 58,
+        "hanzi": "宮保素雞丁",
+        "name": "Kun Pao Chicken",
+        "description": "Stir-fried spicy chicken and diced vegetables with peanuts.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 59,
+        "hanzi": "豆角素雞柳",
+        "name": "Sauteed Chicken with Green Beans",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 60,
+        "hanzi": "豉椒香腸素雞",
+        "name": "Vegetarian Sausage and Chicken in Black Bean Sauce",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 61,
+        "hanzi": "魚香炸素雞球",
+        "name": "Szechwan Style Fried Chicken",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 62,
+        "hanzi": "沙爹炸素雞球",
+        "name": "Spicy-Fried Chicken in Satay Peanut Sauce",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true
+    }]
+}, {
+    "categoryName": "Sweet and Sour",
+    "hanzi": "甜酸類",
+    "food": [{
+        "number": 63,
+        "hanzi": "鳳梨咕咾肉",
+        "name": "Sweet and Sour Pork",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ]
+    }, {
+        "number": 64,
+        "hanzi": "鳳梨咕咾雞",
+        "name": "Sweet and Sour Chicken",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 65,
+        "hanzi": "西檸炸雞",
+        "name": "Lemon Chicken",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 66,
+        "hanzi": "香橙雞球",
+        "name": "Mandarin Chicken",
+        "description": "Breaded fried chicken glazed in orange sauce, served with broccoli and fresh orange.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 67,
+        "hanzi": "左宗棠雞",
+        "name": "General Tso's Chicken",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }]
+}, {
+    "categoryName": "Bean Curd (To Fu)", 
+    "hanzi": "豆腐類",
+    "food": [{
+        "number": 68,
+        "hanzi": "椒鹽豆腐",
+        "name": "Chili and Pepper Fried Bean Curd",
+        "description": "Squares of deep fried bean curd with finely chopped bell pepper, ground cashew nuts and Chinese spices.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 69,
+        "hanzi": "琵琶豆腐",
+        "name": "Golden-Fried Bean Curd Nugget",
+        "description": "Glazed bean curd nugget stuffed with vegetables in a ring of broccoli.",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 70,
+        "hanzi": "麻辣豆腐",
+        "name": "Hot and Spicy Fried Bean Curd Braised with Bell Peppers, Broccoli and Cauliflower",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 71,
+        "hanzi": "麻婆豆腐",
+        "name": "Hot and Spicy Soft Bean Curd (Ma Po To Fu)",
+        "description": "Braised soft bean curd with diced vegetables in a hot spicy sauce.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 72,
+        "hanzi": "雙珍扒豆腐",
+        "name": "Braised Bean Curd with Fresh Shiitake and Enoki Mushrooms",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 73,
+        "hanzi": "百花蒸豆腐",
+        "name": "Steamed Soft Bean Curd with Diced Vegetables",
+        "prices": [
+            {
+                "price": 8.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 74,
+        "hanzi": "八珍豆腐",
+        "name": "Braised Bean Curd with Mixed Vegetables",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }]
+}, {
+    "categoryName": "Hot Pot",
+    "hanzi": "煲仔類",
+    "food": [{
+        "number": 75,
+        "hanzi": "沙爹鮮竹煲",
+        "name": "To Fu Skin and Mixed Vegetable in Satay Peanut Sauce",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 76,
+        "hanzi": "魚香茄子煲",
+        "name": "Szechwan Eggplant",
+        "description": "Eggplant braised in a hot spicy sauce.",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 77,
+        "hanzi": "魚香豆腐\n什菜煲",
+        "name": "Szechwan Bean Curd with Mixed Vegetables",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 78,
+        "hanzi": "魚香素雞\n什菜煲",
+        "name": "Szechwan Chicken with Mixed Vegetables",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 79,
+        "hanzi": "沙爹素雞\n什菜煲",
+        "name": "Braised Chicken and Mixed Vegetables in Satay Peanut Sauce",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 80,
+        "hanzi": "魚香鮮竹煲",
+        "name": "To Fu Skin with Mixed Vegetables in Szechwan Sauce",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 81,
+        "hanzi": "鮮冬菇滑\n豆腐煲",
+        "name": "Braised Soft Bean Curd with Shiitake Mushrooms in Brown Sauce",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 82,
+        "hanzi": "沙爹鮑菇\n素雞煲",
+        "name": "Stewed Oyster Mushroom, Vegetables & Chicken in Satay Peanut Sauce",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 83,
+        "hanzi": "油追煲",
+        "name": "Stewed Shiitake and Oyster Mushroom with Potato and Carrot in Satay Peanut Sauce",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 84,
+        "hanzi": "金銀煲",
+        "name": "Stewed Mushrooms and Stuffed Vegetable Roll in Satay Peanut Sauce",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 85,
+        "hanzi": "沙爹金菇\n鰻魚煲",
+        "name": "Stewed Salmon",
+        "prices": [
+            {
+                "price": 13.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 86,
+        "hanzi": "葡汁雞煲",
+        "name": "Stewed Chicken with Potato and Broccoli in Curry Sauce",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 87,
+        "hanzi": "葡汁牛肉煲",
+        "name": "Stewed Beef with Potato and Broccoli in Curry Sauce",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isSpicy": true
+    }]
+}, {
+    "categoryName": "Sizzling Plate",
+    "hanzi": "鐡板類",
+    "description": "These entrees are served at your table from sizzling plates",
+    "food": [{
+        "number": 88,
+        "hanzi": "豉汁薑茸\n鰣魚",
+        "name": "Smoked Salmon",
+        "description": "Stuffed bean curd wrap in black bean sauce.",
+        "prices": [
+            {
+                "price": 13.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 89,
+        "hanzi": "豉汁素雞什\n菜鐵板烏冬",
+        "name": "Chicken and Mixed Vegetables",
+        "description": "Served in black bean sauce on platter of Japanese noodles",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 90,
+        "hanzi": "魚香素雞什\n菜鐵板烏冬",
+        "name": "Spicy Chicken and Mixed Vegetables",
+        "description": "Served in Szechwan sauce on a bed of Japanese noodles.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 91,
+        "hanzi": "沙爹串燒\n湯麵類",
+        "name": "Combination Skewer",
+        "description": "Lightly broiled chicken, sausage, bacon, red and green peppers with celery in satay peanut sauce.",
+        "prices": [
+            {
+                "price": 12.95
+            }
+        ],
+        "isHeartHealthy": true
+    }]
+}, {
+    "categoryName": "Japanese Noodle Soups",
+    "hanzi": "湯麵類",
+    "description": "Large Single Serving",
+    "food": [{
+        "number": 92,
+        "hanzi": "三茹雞絲\n烏冬湯麵",
+        "name": "Three Mushroom Chicken Noodle Soup Shredded Enoki & Shiitake Mushrooms",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 92,
+        "hanzi": "三茹雞絲\n烏冬湯麵",
+        "name": "Three Mushroom Chicken Noodle Soup Shredded Enoki & Shiitake Mushrooms",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 93,
+        "hanzi": "雪菜火鴨\n烏冬湯麵",
+        "name": "Stewed Mushrooms and Vegetables with Shredded Vegetarian Duck Meat Over Noodles with Broth",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 94,
+        "hanzi": "雙珍鳥冬\n湯麵",
+        "name": "Braised Fresh Shiitake Mushrooms and Enoki Mushrooms Over Noodles in Broth",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 95,
+        "hanzi": "素雞什莱\n烏冬湯麵",
+        "name": "Chicken and Mixed Vegetables Over Noodles in Broth",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }]
+}, {
+    "categoryName": "Noodle Specialties",
+    "hanzi": "粉麺類",
+    "description": "All Noodle Specialties can be prepared without oil to be ♥ friendly",
+    "food": [{
+        "number": 96,
+        "hanzi": "魚香雞絲\n炒烏冬",
+        "name": "Stir-Fried Japanese Udon Noodles, Chicken and Vegetable in Hot Spicy Szechwan Sauce",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isSpicy": true
+    }, {
+        "number": 97,
+        "hanzi": "七彩炒烏冬",
+        "name": "Imperial Style Japanese Noodles",
+        "description": "Udon noodles stir-fried with chicken and shredded vegetables.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 98,
+        "hanzi": "干炒三絲\n河粉",
+        "name": "Pan-Fried Rice Noodles and Shredded Vegetables in Light Soy Sauce (Chow Fun)",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 99,
+        "hanzi": "羅漢齋炒\n河粉",
+        "name": "Buddha's Style Pan-Fried Rice Noodles (Chow Fun)",
+        "description": "Rice noodle stir-fried with mushrooms and mixed vegetables.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 100,
+        "hanzi": "魚香什菜\n炒河粉",
+        "name": "Pan-Fried Rice Noodles with Mixed Vegetables in Hot Spicy Szechwan Sauce (Chow Fun)",
+        "description": "Rice noodle stir-fried with mushrooms and mixed vegetables.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 101,
+        "hanzi": "魚香雞什菜\n炒河粉",
+        "name": "Pan-Fried Rice Noodles with Chicken and Mixed Vegetables in Hot Spicy Szechwan Sauce (Chow Fun)",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 102,
+        "hanzi": "沙爹三菇\n炒河粉",
+        "name": "Pan-Fried Rice Noodles with Mushrooms and Mixed Vegetables in Satay Sauce (Chow Fun)",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 103,
+        "hanzi": "羅漢齋炒麵",
+        "name": "Buddha’s Style Pan-Fried Crispy Chow Mein",
+        "description": "Braised Mushrooms with white fungi and mixed vegetables on top of pan-fried crispy chow mein noodles.",
+        "prices": [
+            {
+                "price": 11.95
+            }
+        ]
+    }, {
+        "number": 104,
+        "hanzi": "什菜炒麵",
+        "name": "Mixed Vegetable Chow Mein (Lo Mein)",
+        "prices": [
+            {
+                "price": 8.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 105,
+        "hanzi": "素雞炒麵",
+        "name": "Chicken Chow Mein (Lo Mein)",
+        "description": "Pan-fried thin noodles with chicken and mixed vegetables.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 106,
+        "hanzi": "什錦炒麵",
+        "name": "Gourmet Chow Mein (Lo Mein)",
+        "description": "Pan-fried thin noodles with mixed vegetables, sausage and chicken.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true
+    }, {
+        "number": 107,
+        "hanzi": "星洲炒米粉",
+        "name": "Singapore Style Rice Noodles",
+        "description": "Stir-fried thin rice noodles with chicken & vegetables in curry sauce.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true,
+        "isSpicy": true
+    }, {
+        "number": 108,
+        "hanzi": "干炒三絲\n米粉",
+        "name": "Stir-Fried Thin Rice Noodles with Shredded Vegetables",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 109,
+        "hanzi": "上海炒年糕",
+        "name": "Shanghai Style Rice Pasta",
+        "description": "Thick rice pasta sauteed with chicken and mixed vegetables in brown sauce.",
+        "prices": [
+            {
+                "price": 10.95
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }]
+}, {
+    "categoryName": "Fried Rice",
+    "hanzi": "炒飯類",
+    "food": [{
+        "number": 110,
+        "hanzi": "菜粒炒飯",
+        "name": "Vegetable Fried Rice",
+        "prices": [
+            {
+                "price": 8.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 111,
+        "hanzi": "菜粒菇粒\n炒飯",
+        "name": "Diced Mushrooms and Diced Vegetable Fried Rice",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 112,
+        "hanzi": "雞粒炒飯",
+        "name": "Chicken Fried Rice",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 113,
+        "hanzi": "什錦炒飯",
+        "name": "Gourmet Fried Rice",
+        "description": "Chicken, sausage and diced vegetables.",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ],
+        "isVegan": true
+    }, {
+        "number": 114,
+        "hanzi": "牛肉炒飯",
+        "name": "Beef Fried Rice",
+        "prices": [
+            {
+                "price": 9.95
+            }
+        ]
+    }]
+}, {
+    "categoryName": "Rice",
+    "hanzi": "飯",
+    "food": [{
+        "number": 115,
+        "hanzi": "黃飯",
+        "name": "Brown Rice",
+        "prices": [
+            {
+                "label": "Per Person",
+                "price": 1.00
+            }, {
+                "label": "Pint",
+                "price": 2.00
+            }, {
+                "label": "Quart",
+                "price": 4.00
+            }
+        ],
+        "isHeartHealthy": true,
+        "isVegan": true
+    }, {
+        "number": 116,
+        "hanzi": "白飯",
+        "name": "Steamed Jasmine Rice",
+        "prices": [
+            {
+                "label": "Per Person",
+                "price": 1.00
+            }, {
+                "label": "Pint",
+                "price": 2.00
+            }, {
+                "label": "Quart",
+                "price": 4.00
+            }
+        ],
+        "isVegan": true
+    }]
+}]

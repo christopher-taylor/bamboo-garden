@@ -9,13 +9,14 @@ h1, h2, h2 {
 h1 {
   font-size: 165%; }
 
-h2 {
-  font-size: 121%; }
-
 body {
   background: url(/img/bamboo.jpg);
+  background-attachment: fixed;
   margin: 0;
   width: 100%; }
+
+main {
+  text-align: center; }
 
 header {
   background-color: #030101;
@@ -26,7 +27,7 @@ header {
   -ms-flex-align: center;
   align-items: center;
   position: fixed;
-  padding: 1.5%;
+  padding: 1%;
   left: 0;
   top: 0;
   width: 100%; }
@@ -78,30 +79,120 @@ nav {
   background-color: rgba(3, 1, 1, 0.85);
   color: #EEE;
   margin: auto;
-  padding: 1.5%;
-  text-align: center;
+  padding: 1.5% 1.5% .5%;
   width: 85%; }
 
-.menu-item {
-  vertical-align: middle; }
+.menu-key {
+  font-family: Raleway, Helvetica, sans-serif;
+  width: 35%;
+  margin: auto;
+  text-align: center; }
 
-.menu-item > td {
-  padding: 2px; }
+.menu-hr {
+  width: 80%;
+  margin-bottom: 1%; }
+
+.category-header-wrapper {
+  width: calc((70 * 1%) - 25px);
+  padding: 3% .5% .5%;
+  margin: auto; }
+
+.category-header-wrapper:first-of-type {
+  padding-top: .5%; }
+
+.category-name, .category-hanzi {
+  line-height: 133.2%;
+  font-family: Merriweather, Times, serif;
+  font-size: 154%;
+  display: inline; }
+
+.category-description {
+  display: inline; }
+
+.menu-row {
+  padding: .7% 0;
+  margin: auto;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.symbols-and-number {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 10%; }
+
+.symbols {
+  min-width: 55px;
+  display: inline; }
 
 .menu-image {
-  height: 30px;
+  height: 25px;
   width: auto; }
 
+.number {
+  display: inline; }
+
+.name-and-desc {
+  padding: 0 2%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: left;
+  width: 62%; }
+
+.name {
+  margin-bottom: 5px; }
+
+.food-hanzi {
+  text-align: right;
+  width: 15%; }
+
+.desc {
+  font-style: italic; }
+
+.price-and-label {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.price-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.prices {
+  width: 13%;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  text-align: right; }
+
+.price {
+  float: right;
+  margin-left: auto;
+  text-align: right; }
+
+.label {
+  -ms-flex-item-align: start;
+  align-self: flex-start; }
+
 footer {
+  text-align: center;
   font-family: Merriweather, Times, serif; }
-  footer .menu-key {
-    margin: auto;
-    text-align: left;
-    width: 35%; }
   footer .dev-footer {
-    font-size: 66%;
-    text-align: center; }
+    padding: 5px;
+    font-size: 77%; }
 
 .footer-image {
-  height: 25px;
+  height: 20px;
   width: auto; }

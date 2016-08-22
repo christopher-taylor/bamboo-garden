@@ -6,7 +6,7 @@
         "price1": 7.95,
         "isHeartHealthy": true,
         "isVegan": true,
-        "isSpicy": false
+        "isSpicy": true
     }, {
         "number": 2,
         "name": "Chicken Wonton Soup",

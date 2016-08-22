@@ -4,35 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Handlebars Demo</title>
+    <link rel="icon" href="/favicon.png">
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script>
+        Handlebars.registerHelper('breaklines', function(text) {
+            text = Handlebars.Utils.escapeExpression(text);
+            text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
+            return new Handlebars.SafeString(text);
+        });
+    </script>
     <script id="template" type="text/x-handlebars-template">
-        <h1>Menu</h1>
-            {{#Categories}}
-            <h2>{{name}}</h2>
-            <table style="width:80%;margin:auto;">
-                {{#food}}
-                <tr class="menu-item">
-                    <td>
-                        {{#if isHeartHealthy}}
-                            <img class="menu-image" src="/img/heart.svg">
+        {{#each Categories}}
+            <div class="category-header-wrapper">
+                {{#if hanzi}}
+                    <div class="category-hanzi">{{breaklines hanzi}}</div> - 
+                {{/if}}
+                <span class="category-name">{{this.categoryName}}</span>
+                {{#if description}}
+                    <br /><div class="category-description">{{description}}</div>
+                {{/if}}
+            </div>
+            <hr class="menu-hr">
+            {{#food}}
+                <div class="menu-row">
+                    <div class="symbols-and-number">
+                        <div class="symbols">
+                            {{#if isHeartHealthy}}
+                                <img class="menu-image" src="/img/heart.svg">
+                            {{/if}}
+                            {{#if isVegan}}
+                                <img class="menu-image" src="/img/vegan2.svg">
+                            {{/if}}
+                            {{#if isSpicy}}
+                                <img class="menu-image" src="/img/asterisk.svg">
+                            {{/if}}
+                        </div>
+                        <div class="number">
+                            {{number}}
+                        </div>
+                    </div>
+                    {{#if hanzi}}
+                        <div class="food-hanzi">{{breaklines hanzi}}</div><br />
+                    {{/if}}
+                    <div class="name-and-desc">
+                        <div class="name">
+                            {{name}}
+                        </div> 
+                        {{#if description}}
+                            <div class="desc">{{description}}</div>
                         {{/if}}
-                        {{#if isVegan}}
-                            <img class="menu-image" src="/img/vegan2.svg">
-                        {{/if}}
-                        {{#if isSpicy}}
-                            <img class="menu-image" src="/img/asterisk.svg">
-                        {{/if}}
-                    </td>
-                    <td>{{number}}</td>
-                    <td>{{name}}</td>
-                    <td>${{price1}}</td>
-                </tr>
+                    </div>
+                    <div class="prices">
+                        {{#prices}}
+                            <div class="price-and-label">
+                                <div class="price-wrapper">
+                                    {{#if label}}
+                                        <div class="price-label">{{label}}:</div> 
+                                    {{/if}}
+                                    <div class="price">${{price}}</div>
+                                </div>
+                            </div>
+                        {{/prices}}
+                    </div>
+                </div>
             {{/food}}
-            </table>
-            {{/Categories}}
+        {{/each}}
     </script>
 </head>
 
@@ -46,9 +85,9 @@
             <nav>
                 <ul>
                     <li>About Us</li>|
-                    <li>Lunch Menu</li>|
-                    <li>Dinner Menu</li>|
-                    <li>Daily Menu</li>
+                    <li>Lunch</li>|
+                    <li>Dinner</li>|
+                    <li>All Day</li>
                 </ul>
             </nav>
         </div>
@@ -56,17 +95,18 @@
 
     <div id="spacer"></div>
 
-    <div class="wrapper content-area">
-        <main id="main"></main>
+    <div class="wrapper">
+        <main id="main">
+        </main>
 
-        <hr style="width:85%;color:white;margin:20px auto;">
 
         <footer>
             <div class="menu-key">
                 <img class="footer-image" src="/img/heart.svg"> - Indicates that an item is low in saturated fats.<br />
-                <img class="footer-image" src="/img/asterisk.svg"> - Indicates that an item is spicy.<br />
-                <img class="footer-image" src="/img/vegan2.svg"> - Indicates that an item is vegan.<br /><br />
+                <img class="footer-image" src="/img/vegan2.svg"> - Indicates that an item is vegan.<br />
+                <img class="footer-image" src="/img/asterisk.svg"> - Indicates that an item is spicy.
             </div>
+            <hr class="menu-hr">
             <span class="dev-footer">Design by Christopher Taylor  - &copy; 2016<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></span>
 </script>
         </footer>
@@ -75,9 +115,9 @@
         $(document).ready(function(){
             var source = document.getElementById('template').innerHTML;
             var template = Handlebars.compile(source);
-            var data = $.getJSON("/data/lunch.json", function(data){
+            var data = $.getJSON("/data/master.json", function(data){
                 var result = template({Categories: data});
-                $(main).append(result);
+                $(main).prepend(result);
             });
         })
     </script>
