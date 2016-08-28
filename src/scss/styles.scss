@@ -8,6 +8,7 @@ $menu-row-width: 70;
 $header-height: 75px;
 
 html {
+    overflow-x: hidden;
     font-size:$base-font-size;
     line-height:$base-line-height;
     font-family: $sans-font-stack;
@@ -22,9 +23,9 @@ h1 {
 }
 
 body {
-    background:url(/img/bamboo.jpg);
+    background:url(../img/bamboo.jpg);
     background-attachment: fixed;
-    margin:0;
+    margin: none;
     width:100%
 }
 
@@ -45,7 +46,7 @@ header {
     padding:1%;
     left: 0;
     top:0;
-    width: 100%;
+    width: 99%;
 }
 
 header>img{
@@ -150,7 +151,7 @@ nav{
     display: flex;
     width: 75%;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
 }
 
 .symbols-and-number{
@@ -164,7 +165,7 @@ nav{
     display: inline;
 }
 .menu-image {
-    height:25px;
+    height:23px;
     width:auto
 }
 .number{
@@ -183,6 +184,7 @@ nav{
 }
 
 .food-hanzi{
+    white-space: nowrap;
     text-align: right;
     width: 15%;
 }
@@ -201,8 +203,8 @@ nav{
 }
 
 .prices{
-    width: 13%;
-    align-self: flex-end;
+    width: 15%;
+    align-self: flex-start;
     text-align: right;
 }
 
@@ -220,16 +222,20 @@ align-self: flex-start;
 // Footer CSS
 ///////////////////////////////////////////////////////////////////////////////
 
-footer {
+.footer-disclaimer{
+    font-family: $sans-font-stack;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: left;
+    width: 75%;
+    margin: auto;
+}
+
+.dev-footer {
     text-align: center;
     font-family: $serrif-font-stack;
-
-
-
-    .dev-footer {
-        padding: 5px;
-        font-size:$base-font-size * .7;
-    }
+    padding: 5px;
+    font-size:$base-font-size * .7;
 }
 
 .footer-image {

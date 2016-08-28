@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Handlebars Demo</title>
-    <link rel="icon" href="/favicon.png">
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+    <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
     <script>
         Handlebars.registerHelper('breaklines', function(text) {
-            text = Handlebars.Utils.escapeExpression(text);
-            text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
-            return new Handlebars.SafeString(text);
+            if(text){
+                text = Handlebars.Utils.escapeExpression(text);
+                text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
+                return new Handlebars.SafeString(text);
+            }
         });
     </script>
     <script id="template" type="text/x-handlebars-template">
@@ -30,31 +32,37 @@
             <hr class="menu-hr">
             {{#food}}
                 <div class="menu-row">
-                    <div class="symbols-and-number">
-                        <div class="symbols">
-                            {{#if isHeartHealthy}}
-                                <img class="menu-image" src="/img/heart.svg">
-                            {{/if}}
-                            {{#if isVegan}}
-                                <img class="menu-image" src="/img/vegan2.svg">
-                            {{/if}}
-                            {{#if isSpicy}}
-                                <img class="menu-image" src="/img/asterisk.svg">
+                    {{#unless combo}}
+                        <div class="symbols-and-number">
+                            <div class="symbols">
+                                {{#if isHeartHealthy}}
+                                    <img class="menu-image" src="./img/heart.svg">
+                                {{/if}}
+                                {{#if isVegan}}
+                                    <img class="menu-image" src="./img/vegan2.svg">
+                                {{/if}}
+                                {{#if isSpicy}}
+                                    <img class="menu-image" src="./img/asterisk.svg">
+                                {{/if}}
+                            </div>
+                            {{#if number}}
+                                <div class="number">
+                                    {{number}}
+                                </div>
                             {{/if}}
                         </div>
-                        <div class="number">
-                            {{number}}
-                        </div>
-                    </div>
+                    {{/unless}}
                     {{#if hanzi}}
                         <div class="food-hanzi">{{breaklines hanzi}}</div><br />
                     {{/if}}
                     <div class="name-and-desc">
-                        <div class="name">
-                            {{name}}
-                        </div> 
-                        {{#if description}}
-                            <div class="desc">{{description}}</div>
+                        {{#if name}}
+                            <div class="name">
+                                {{name}}
+                            </div> 
+                        {{/if}}
+                        {{#if (breaklines description)}}
+                            <div class="desc">{{breaklines description}}</div>
                         {{/if}}
                     </div>
                     <div class="prices">
@@ -84,7 +92,6 @@
             <span id="slogan">Health Is Our Recipe</span><br />
             <nav>
                 <ul>
-                    <li>About Us</li>|
                     <li>Lunch</li>|
                     <li>Dinner</li>|
                     <li>All Day</li>
@@ -101,10 +108,15 @@
 
 
         <footer>
+            <div class="footer-disclaimer">
+            <p>All meat, poultry, and seafood items are made from vegetable protein products and 100% vegetable oil. All dishes have no cholesterol. Ask your server for special dietary needs requiring special preparation, including no salt, no oil, no sugar, or other restrictions.</p>
+
+            <p>"We Are Kosher" - Certified Kosher by Va'ad Harabanim of Greater Seattle. For more information call (206) 760-0805.</p>
+            </div>
             <div class="menu-key">
-                <img class="footer-image" src="/img/heart.svg"> - Indicates that an item is low in saturated fats.<br />
-                <img class="footer-image" src="/img/vegan2.svg"> - Indicates that an item is vegan.<br />
-                <img class="footer-image" src="/img/asterisk.svg"> - Indicates that an item is spicy.
+                <img class="footer-image" src="./img/heart.svg"> - Indicates that an item is low in saturated fats.<br />
+                <img class="footer-image" src="./img/vegan2.svg"> - Indicates that an item is vegan.<br />
+                <img class="footer-image" src="./img/asterisk.svg"> - Indicates that an item is spicy.
             </div>
             <hr class="menu-hr">
             <span class="dev-footer">Design by Christopher Taylor  - &copy; 2016<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></span>
@@ -115,7 +127,7 @@
         $(document).ready(function(){
             var source = document.getElementById('template').innerHTML;
             var template = Handlebars.compile(source);
-            var data = $.getJSON("/data/master.json", function(data){
+            var data = $.getJSON("./data/master.json", function(data){
                 var result = template({Categories: data});
                 $(main).prepend(result);
             });

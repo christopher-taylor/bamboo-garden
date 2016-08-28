@@ -1,4 +1,5 @@
 html {
+  overflow-x: hidden;
   font-size: 110%;
   line-height: 111%;
   font-family: Raleway, Helvetica, sans-serif; }
@@ -10,9 +11,9 @@ h1 {
   font-size: 165%; }
 
 body {
-  background: url(/img/bamboo.jpg);
+  background: url(../img/bamboo.jpg);
   background-attachment: fixed;
-  margin: 0;
+  margin: none;
   width: 100%; }
 
 main {
@@ -30,7 +31,7 @@ header {
   padding: 1%;
   left: 0;
   top: 0;
-  width: 100%; }
+  width: 99%; }
 
 header > img {
   height: 75px;
@@ -117,8 +118,8 @@ nav {
   width: 75%;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -ms-flex-align: center;
-  align-items: center; }
+  -ms-flex-align: baseline;
+  align-items: baseline; }
 
 .symbols-and-number {
   display: -ms-flexbox;
@@ -134,7 +135,7 @@ nav {
   display: inline; }
 
 .menu-image {
-  height: 25px;
+  height: 23px;
   width: auto; }
 
 .number {
@@ -153,6 +154,7 @@ nav {
   margin-bottom: 5px; }
 
 .food-hanzi {
+  white-space: nowrap;
   text-align: right;
   width: 15%; }
 
@@ -172,9 +174,9 @@ nav {
   justify-content: space-between; }
 
 .prices {
-  width: 13%;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
+  width: 15%;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
   text-align: right; }
 
 .price {
@@ -186,12 +188,20 @@ nav {
   -ms-flex-item-align: start;
   align-self: flex-start; }
 
-footer {
+.footer-disclaimer {
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  -moz-text-align-last: left;
+  text-align-last: left;
+  width: 75%;
+  margin: auto; }
+
+.dev-footer {
   text-align: center;
-  font-family: Merriweather, Times, serif; }
-  footer .dev-footer {
-    padding: 5px;
-    font-size: 77%; }
+  font-family: Merriweather, Times, serif;
+  padding: 5px;
+  font-size: 77%; }
 
 .footer-image {
   height: 20px;
