@@ -1,0 +1,104 @@
+@import 'shared';
+
+///////////////////////////////////////////////////////////////////////////////
+// Menu CSS
+///////////////////////////////////////////////////////////////////////////////
+
+.menu-hr{
+    width: 85%;
+    margin-bottom: 1%;
+}
+
+.category-header-wrapper{
+    width: calc((#{$menu-row-width} * 1%) - 25px);
+    padding: 3% .5% .5%;
+    margin: auto;
+}
+
+.category-header-wrapper:first-of-type{
+    padding-top: .5%;
+}
+
+.category-name, .category-hanzi{
+    line-height: $base-line-height * 1.2;
+    font-family: $serrif-font-stack;
+    font-size:($base-font-size * 1.4);
+    display: inline;
+}
+
+.category-description{
+    display: inline;
+}
+
+
+.menu-row{
+    padding: .7% 0;
+    margin: auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.symbols-and-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:10%;
+}
+.symbols{
+    min-width: 55px;
+    display: inline;
+}
+.menu-image {
+    height:23px;
+    width:auto
+}
+.number{
+    display: inline;
+}
+.name-and-desc{
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:62%;
+}
+
+.name{
+    margin-bottom: 5px;
+}
+
+.food-hanzi{
+    white-space: nowrap;
+    text-align: right;
+    width: 15%;
+}
+.desc{
+    font-style: italic;
+}
+
+.price-and-label{
+    display: flex;
+    flex-direction: column;
+}
+
+.price-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices{
+    width: 16%;
+    align-self: flex-start;
+    text-align: right;
+}
+
+.price{
+    float: right; 
+    margin-left: auto;
+    text-align: right;
+}
+.label{
+align-self: flex-start;
+}

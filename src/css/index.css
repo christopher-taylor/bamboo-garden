@@ -1,0 +1,132 @@
+html {
+  overflow-x: hidden;
+  font-size: 110%;
+  line-height: 111%;
+  font-family: Raleway, Helvetica, sans-serif; }
+
+h1, h2, h2 {
+  font-family: Merriweather, Times, serif; }
+
+h1 {
+  font-size: 165%; }
+
+body {
+  background: url(../img/bamboo.jpg);
+  background-attachment: fixed;
+  margin: auto;
+  width: 100%;
+  max-width: 1400px; }
+
+main {
+  text-align: center; }
+
+a {
+  color: #EEE; }
+
+header {
+  background-color: #030101;
+  color: #EEE;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  padding: 1%;
+  left: 0;
+  top: 0;
+  width: 99%; }
+
+header > img {
+  height: 75px;
+  width: auto; }
+
+nav {
+  display: inline-block;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  text-align: left; }
+  nav ul {
+    padding-left: 0;
+    margin: 0; }
+    nav ul li {
+      line-height: 111%;
+      display: inline-block;
+      list-style: none; }
+    nav ul li:hover {
+      color: white;
+      font-weight: bold; }
+
+nav li + li:before {
+  content: " | ";
+  padding: 0 10px; }
+
+#slogan {
+  font-family: Merriweather, Times, serif;
+  font-size: 165%; }
+
+.header-content {
+  width: 100%;
+  padding: 0 2%;
+  text-align: left;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+#spacer {
+  width: 100%;
+  margin: 1%;
+  height: 75px; }
+
+.wrapper {
+  background-color: rgba(3, 1, 1, 0.85);
+  color: #EEE;
+  margin: auto;
+  padding: 1.5% 1.5% .5%;
+  width: 85%; }
+
+.menu-key {
+  font-family: Raleway, Helvetica, sans-serif;
+  width: 35%;
+  margin: auto;
+  text-align: center; }
+
+.footer-disclaimer {
+  font-family: Raleway, Helvetica, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  width: 75%;
+  margin: auto; }
+
+.dev-footer {
+  margin: auto;
+  text-align: center;
+  font-family: Merriweather, Times, serif;
+  padding: 5px;
+  font-size: 77%; }
+
+.footer-image {
+  height: 20px;
+  width: auto; }
+
+#restaurant-shot {
+  width: 100%;
+  height: auto; }
+
+p {
+  line-height: 20px;
+  text-align: justify;
+  text-justify: inter-word; }
+
+.fa {
+  padding: 2% 2%; }

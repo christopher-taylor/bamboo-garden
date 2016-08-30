@@ -1,0 +1,157 @@
+///////////////////////////////////////////////////////////////////////////////
+// CONSTANTS
+///////////////////////////////////////////////////////////////////////////////
+
+// Typography
+$base-font-size: 110%;
+$base-line-height: 111%;
+$sans-font-stack: Raleway,Helvetica,sans-serif;
+$serrif-font-stack: Merriweather,Times,serif;
+$menu-row-width: 70;
+
+// Element Dimensions
+$header-height: 75px;
+
+///////////////////////////////////////////////////////////////////////////////
+// GENERAL CSS
+///////////////////////////////////////////////////////////////////////////////
+
+html {
+    overflow-x: hidden;
+    font-size:$base-font-size;
+    line-height:$base-line-height;
+    font-family: $sans-font-stack;
+}
+
+h1,h2,h2 {
+    font-family:$serrif-font-stack
+}
+
+h1 {
+    font-size:($base-font-size*1.5)
+}
+
+body {
+    background:url(../img/bamboo.jpg);
+    background-attachment: fixed;
+    margin: auto;
+    width:100%;
+    max-width: 1400px;
+}
+
+main{
+    text-align: center;
+}
+
+a{
+    color: #EEE;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// HEADER RELATED CSS
+///////////////////////////////////////////////////////////////////////////////
+
+header {
+    background-color: #030101;
+    color:#EEE;
+    height:$header-height;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    padding:1%;
+    left: 0;
+    top:0;
+    width: 99%;
+}
+
+header>img{
+    height: $header-height;
+    width: auto;
+}
+
+nav{
+    display: inline-block;
+    order: 2;
+    text-align: left;
+
+    ul{
+        padding-left: 0;
+        margin: 0;
+
+        li {
+            line-height: $base-line-height;
+            display:inline-block;
+            list-style:none;
+        }
+
+        li:hover{
+            color:white;
+            font-weight: bold;
+        }
+    }
+}
+
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+}
+
+#slogan{
+    font-family: $serrif-font-stack;
+    font-size: $base-font-size * 1.5
+}
+
+.header-content{
+    width: 100%;
+    padding: 0 2%;
+    text-align: left;
+    display: inline-flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+#spacer{
+    width: 100%;
+    margin: 1%;
+    height: $header-height;
+}
+
+.wrapper {
+    background-color:rgba(3,1,1,.85);
+    color:#EEE;
+    margin:auto;
+    padding: 1.5% 1.5% .5%;
+    width:85%
+}
+
+.menu-key {
+    font-family: $sans-font-stack;
+    width: 35%;
+    margin: auto;
+    text-align:center;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+// Footer CSS
+///////////////////////////////////////////////////////////////////////////////
+
+.footer-disclaimer{
+    font-family: $sans-font-stack;
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: left;
+    width: 75%;
+    margin: auto;
+}
+
+.dev-footer {
+    margin: auto;
+    text-align: center;
+    font-family: $serrif-font-stack;
+    padding: 5px;
+    font-size:$base-font-size * .7;
+}
+
+.footer-image {
+    height:20px;
+    width: auto;
+}

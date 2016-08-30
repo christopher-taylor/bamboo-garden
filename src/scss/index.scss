@@ -1,0 +1,22 @@
+@import 'shared';
+
+///////////////////////////////////////////////////////////////////////////////
+// Body CSS
+///////////////////////////////////////////////////////////////////////////////
+
+#restaurant-shot{
+    // padding-left: 2%;
+    width: 100%;
+    // display: inline-block;
+    // float: right;
+    height: auto;
+}
+
+p{
+    line-height: 20px;
+    text-align: justify;
+    text-justify: inter-word; 
+}
+.fa{
+    padding: 2% 2%;
+}

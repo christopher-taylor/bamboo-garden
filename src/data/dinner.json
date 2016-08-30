@@ -1,0 +1,52 @@
+[
+    {
+        "categoryName": "Combos",
+        "description": "Served from 11 AM to 10PM\nSoup is not included with To Go orders",
+        "food": [
+            {
+                "hanzi": "Combo A",
+                "combo": true,
+                "description": "Corn Chowder Soup\nSpring Roll\nFried Potsticker\nChicken Fried Rice\nSweet and Sour Chicken\nSauteed Mixed Fresh Vegetables",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 11.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo B",
+                "combo": true,
+                "description": "Corn Chowder Soup\nSpring Roll\nFried Potsticker\nChicken Chow Mein\nAlmond Fried Chicken\nSauteed Beef & Broccoli",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 12.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo C",
+                "combo": true,
+                "description": "Corn Chowder Soup\nTaro Root Patty\nFried Potsticker\nMongolian Beef\nChicken Chow Mein\nMandarin Chicken\nSauteed Green Beans & Broccoli",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 8.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo D",
+                "combo": true,
+                "description": "Corn Chowder Soup\nSpring Roll\nChicken Nugget\nTaro Root Patty\nChicken Fried Rice\nChicken Chow Mein\nGeneral Tao's Chicken",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 9.95
+                    }
+                ]
+            }
+        ]
+    }
+]

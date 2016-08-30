@@ -1,210 +1,236 @@
-[{
-    "categoryName": "Soup",
-    "food": [{
-        "number": 1,
-        "name": "Chicken Udon Noodle Soup",
-        "prices": [
+[
+    {
+        "categoryName": "Soup",
+        "food": [
             {
-                "price": 7.95
-            }
-        ],
-        "isHeartHealthy": true,
-        "isVegan": true,
-        "isSpicy": true
-    }, {
-        "number": 2,
-        "name": "Chicken Wonton Soup",
+                "number": 1,
+                "name": "Chicken Udon Noodle Soup",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 8.95
-            }
-        ],
-        "isVegan": true
-    }, {
-        "number": 3,
-        "name": "Chicken Wonton Udon Noodle Soup",
+                "number": 2,
+                "name": "Chicken Wonton Soup",
                 "prices": [
+                    {
+                        "price": 8.95
+                    }
+                ]
+            },
             {
-                "price": 8.95
-            }
-        ],
-        "isSpicy": true
-    }, {
-        "number": 4,
-        "name": "Mushroom and Chicken Noodle Soup",
+                "number": 3,
+                "name": "Chicken Wonton Udon Noodle Soup",
                 "prices": [
+                    {
+                        "price": 8.95
+                    }
+                ]
+            },
             {
-                "price": 10.95
+                "number": 4,
+                "name": "Mushroom and Chicken Noodle Soup",
+                "prices": [
+                    {
+                        "price": 10.95
+                    }
+                ]
             }
         ]
-    }]
-}, {
-    "categoryName": "Chow Fun",
-    "food": [{
-        "number": 5,
-        "name": "Beef or Chicken Chow Fun",
+    },
+    {
+        "categoryName": "Chow Fun",
+        "food": [
+            {
+                "number": 5,
+                "name": "Beef or Chicken Chow Fun",
                 "prices": [
+                    {
+                        "price": 9.95
+                    }
+                ]
+            },
             {
-                "price": 9.95
-            }
-        ]
-    }, {
-        "number": 6,
-        "name": "Dry Beef or Chicken Chow Fun",
+                "number": 6,
+                "name": "Dry Beef or Chicken Chow Fun",
                 "prices": [
+                    {
+                        "price": 9.95
+                    }
+                ]
+            },
             {
-                "price": 9.95
-            }
-        ]
-    }, {
-        "number": 7,
-        "name": "Special Chow Fun",
+                "number": 7,
+                "name": "Special Chow Fun",
                 "prices": [
-            {
-                "price": 11.95
+                    {
+                        "price": 11.95
+                    }
+                ]
             }
         ]
-    }]
-}, {
-    "categoryName": "Chow Mein",
-    "food": [{
-        "number": 8,
-        "name": "Beef or Chicken Crispy Chow Mein",
+    },
+    {
+        "categoryName": "Chow Mein",
+        "food": [
+            {
+                "number": 8,
+                "name": "Beef or Chicken Crispy Chow Mein",
                 "prices": [
+                    {
+                        "price": 9.95
+                    }
+                ]
+            },
             {
-                "price": 9.95
-            }
-        ]
-    }, {
-        "number": 9,
-        "name": "Special Crispy Chow Mein",
+                "number": 9,
+                "name": "Special Crispy Chow Mein",
                 "prices": [
-            {
-                "price": 11.95
+                    {
+                        "price": 11.95
+                    }
+                ]
             }
         ]
-    }]
-}, {
-    "categoryName": "White/Brown Rice",
-    "food": [{
-        "number": 10,
-        "name": "Broccoli Beef or Chicken with Rice",
+    },
+    {
+        "categoryName": "White/Brown Rice",
+        "food": [
+            {
+                "number": 10,
+                "name": "Broccoli Beef or Chicken with Rice",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
-            }
-        ]
-    }, {
-        "number": 11,
-        "name": "Green Beans Beef or Chicken with Rice in Black Bean Sauce",
+                "number": 11,
+                "name": "Green Beans Beef or Chicken with Rice in Black Bean Sauce",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
-            }
-        ]
-    }, {
-        "number": 12,
-        "name": "Mongolian Beef with Rice",
+                "number": 12,
+                "name": "Mongolian Beef with Rice",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
-            }
-        ]
-    }, {
-        "number": 13,
-        "name": "General Tao's Chicken with Rice",
+                "number": 13,
+                "name": "General Tao's Chicken with Rice",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
-            }
-        ]
-    }, {
-        "number": 14,
-        "name": "Kun Pao Chicken with Rice",
+                "number": 14,
+                "name": "Kun Pao Chicken with Rice",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
-            }
-        ]
-    }, {
-        "number": 15,
-        "name": "Curry Beef or Chicken with Rice",
+                "number": 15,
+                "name": "Curry Beef or Chicken with Rice",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
-            }
-        ]
-    }, {
-        "number": 16,
-        "name": "Crispy Beef or Chicken with Rice",
+                "number": 16,
+                "name": "Crispy Beef or Chicken with Rice",
                 "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
+            },
             {
-                "price": 7.95
+                "number": 17,
+                "name": "Cashew Chicken with Rice",
+                "prices": [
+                    {
+                        "price": 7.95
+                    }
+                ]
             }
         ]
-    }, {
-        "number": 17,
-        "name": "Cashew Chicken with Rice",
-        "prices": [
+    },
+    {
+        "categoryName": "Combos",
+        "description": "Soup is not included with To Go orders",
+        "food": [
             {
-                "price": 7.95
+                "hanzi": "Combo A",
+                "combo": true,
+                "description": "Corn Chowder Soup\nFried Potsticker\nVegetable Chow Mein\nSteamed Brown or White Rice\nStir-Fried Chicken & Broccoli",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 7.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo B",
+                "combo": true,
+                "description": "Corn Chowder Soup\nTaro Root Patty\nSteamed White Rice\nChicken Chow Mein\nAlmond Fried Chicken & Broccoli",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 7.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo C",
+                "combo": true,
+                "description": "Corn Chowder Soup\nSpring Roll\nChicken Fried Rice\nSweet and Sour Chicken\nSauteed Green Beans & Broccoli",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 8.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo D",
+                "combo": true,
+                "description": "Corn Chowder Soup\nFried Potsticker\nChicken Fried Rice\nMongolian Beef\nSauteed Mixed Fresh Vegetables",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 9.95
+                    }
+                ]
+            },
+            {
+                "hanzi": "Combo E",
+                "combo": true,
+                "description": "Corn Chowder Soup\nSpring Roll\nChicken Fried Rice\nChicken Chow Mein\nGeneral Tao's Chicken",
+                "prices": [
+                    {
+                        "label": "Per Person",
+                        "price": 10.95
+                    }
+                ]
             }
         ]
-    }]
-}, {
-    "categoryName": "Combos",
-    "description": "Soup is not included with To Go orders",
-    "food": [
-        {
-            "hanzi": "Combo A",
-            "combo": true,
-            "description": "Corn Chowder Soup\nFried Potsticker\nVegetable Chow Mein\nSteamed Brown or White Rice\nStir-Fried Chicken & Broccoli",
-            "prices":[
-                {
-                    "label": "Per Person",
-                    "price": 7.95
-                }
-            ]
-        }, {
-            "hanzi": "Combo B",
-            "combo": true,
-            "description": "Corn Chowder Soup\nTaro Root Patty\nSteamed White Rice\nChicken Chow Mein\nAlmond Fried Chicken & Broccoli",
-            "prices":[
-                {
-                    "label": "Per Person",
-                    "price": 7.95
-                }
-            ]
-        }, {
-            "hanzi": "Combo C",
-            "combo": true,
-            "description": "Corn Chowder Soup\nSpring Roll\nChicken Fried Rice\nSweet and Sour Chicken\nSauteed Green Beans & Broccoli",
-            "prices":[
-                {
-                    "label": "Per Person",
-                    "price": 8.95
-                }
-            ]
-        }, {
-            "hanzi": "Combo D",
-            "combo": true,
-            "description": "Corn Chowder Soup\nFried Potsticker\nChicken Fried Rice\nMongolian Beef\nSauteed Mixed Fresh Vegetables",
-            "prices":[
-                {
-                    "label": "Per Person",
-                    "price": 9.95
-                }
-            ]
-        }, {
-            "hanzi": "Combo E",
-            "combo": true,
-            "description": "Corn Chowder Soup\nSpring Roll\nChicken Fried Rice\nChicken Chow Mein\nGeneral Tao's Chicken",
-            "prices":[
-                {
-                    "label": "Per Person",
-                    "price": 10.95
-                }
-            ]
-        }
-    ]
-}]
+    }
+]

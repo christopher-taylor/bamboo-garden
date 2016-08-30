@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather%7CRaleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Handlebars Demo</title>
+    <link rel="icon" href="./favicon.png">
+    <link rel="stylesheet" href="./css/menu.css">
+    <script src="./combined.js"></script>
+    <script>
+        Handlebars.registerHelper('breaklines', function(text) {
+            if(text){
+                text = Handlebars.Utils.escapeExpression(text);
+                text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
+                return new Handlebars.SafeString(text);
+            }
+        });
+    </script>
+</head>
+
+
+
+<body>
+    <header>
+        <a href="./index.html"><img src="img/logo-white.svg" id="header_logo" class="header_svg" alt=""></a>
+        <div class="header-content">
+            <span id="slogan">Health Is Our Recipe</span><br>
+            <nav>
+                <ul>
+                    <li><a href="./menu.html#lunch" onclick="writeMenu('lunch');">Lunch</a></li>
+                    <li><a href="./menu.html#dinner" onclick="writeMenu('dinner')"> Dinner</a></li>
+                    <li><a href="./menu.html#all-day" onclick="writeMenu('all-day')">All Day</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="spacer"></div>
+
+    <div class="wrapper">
+        <main id="main">
+        </main>
+
+
+        <footer>
+            <div class="footer-disclaimer">
+                <p>All meat, poultry, and seafood items are made from vegetable protein products and 100% vegetable oil. All
+                    dishes have no cholesterol. Ask your server for special dietary needs requiring special preparation,
+                    including no salt, no oil, no sugar, or other restrictions.</p>
+
+                <p>"We are certified Kosher by Va'ad Harabanim of Greater Seattle. For more information call (206) 760-0805.</p>
+            </div>
+            <div class="menu-key">
+                <img class="footer-image" src="./img/heart.svg"> - Indicates that an item is low in saturated fats.<br>
+                <img class="footer-image" src="./img/vegan.svg"> - Indicates that an item is vegan.<br>
+                <img class="footer-image" src="./img/asterisk.svg"> - Indicates that an item is spicy.
+            </div>
+            <hr class="menu-hr">
+            <div class="dev-footer">
+                Design by Christopher Taylor - &copy; 2016
+                <script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>
+            </div>
+        </footer>
+    </div>
+    <script>
+        $(document).ready(function(){
+            writeMenu(window.location.hash.substring(1));
+        })
+
+        function writeMenu(dataFile){
+            var template = Handlebars.templates['template.js'];
+            var data = $.getJSON("./data/" + dataFile + ".json", function(data){
+                var title = prepTitle(dataFile);
+                document.title = title;
+                history.replaceState("", "Bamboo Garden - " + title, "./menu.html#" + dataFile);
+                $(main).empty();
+                var html = template({Categories: data});
+                $(main).prepend(html);
+            });
+        }
+
+        function prepTitle(dataString){
+            var title = dataString;
+            if(title.includes("-")){
+                title = title.replace("-", " ");
+            }
+            title = title.replace(/\w\S*/g, function(txt){
+                return txt.charAt(0).toUpperCase()
+                    + txt.substr(1).toLowerCase();
+                });
+            return title;
+        }
+    </script>
+</body>
+
+</html>
